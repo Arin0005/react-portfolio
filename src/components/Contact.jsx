@@ -70,7 +70,7 @@ const Contact = () => {
                     whileInView="visible"
                     variants={inputVariants}
                 >
-                    Write something intriguing
+                    Innovative, Adaptive, Visionary
                 </motion.h3>
 
                 <motion.p
@@ -79,7 +79,7 @@ const Contact = () => {
                     whileInView="visible"
                     variants={inputVariants}
                 >
-                    Your enthusiasm and approach towards joining the company
+                    Always ready to get my hands swollen from coding.
                 </motion.p>
 
                 {[{
