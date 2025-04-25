@@ -45,20 +45,20 @@ export const PROJECTS = [
       "The Waste Classifier ML Model is a Python-based image classification system designed to automate waste sorting by categorizing waste into recyclable, organic, and non-recyclable types. Built using a Convolutional Neural Network (CNN) with TensorFlow/Keras, the model processes 224x224 pixel images to deliver accurate classifications. The project involved curating a diverse dataset, overcoming challenges like class imbalance through data augmentation, and developing a full ML pipeline for training, evaluation, and prediction. This solution promotes sustainable waste management by streamlining sorting processes, reflecting over 100 hours of dedicated research, coding, and optimization.",
     technologies: ["Python", "TensorFlow", "Keras", "NumPy", "OpenCV", "Git"],
   },
-  {
-    title: "Rail Madad Complaint Analysis Model",
-    image: project6,
-    description:
-      "The Rail Madad Complaint Analysis Model is a Python-based machine learning system designed to enhance the Indian Railways' RailMadad platform by automating the analysis of passenger complaints. Leveraging natural language processing (NLP) techniques, the model categorizes complaints, performs sentiment analysis, and prioritizes issues for faster resolution. Built with TensorFlow and spaCy, it processes textual data from the RailMadad app and portal to provide actionable insights. The project involved collecting and cleaning a dataset of passenger feedback, addressing challenges like noisy text data, and developing a robust pipeline for model training and evaluation. Over 80 hours of dedicated effort resulted in a scalable solution to improve railway service quality and passenger experience.",
-    technologies: [
-      "Python",
-      "TensorFlow",
-      "spaCy",
-      "NLTK",
-      "scikit-learn",
-      "Git",
-    ],
-  },
+  // {
+  //   title: "Rail Madad Complaint Analysis Model",
+  //   image: project6,
+  //   description:
+  //     "The Rail Madad Complaint Analysis Model is a Python-based machine learning system designed to enhance the Indian Railways' RailMadad platform by automating the analysis of passenger complaints. Leveraging natural language processing (NLP) techniques, the model categorizes complaints, performs sentiment analysis, and prioritizes issues for faster resolution. Built with TensorFlow and spaCy, it processes textual data from the RailMadad app and portal to provide actionable insights. The project involved collecting and cleaning a dataset of passenger feedback, addressing challenges like noisy text data, and developing a robust pipeline for model training and evaluation. Over 80 hours of dedicated effort resulted in a scalable solution to improve railway service quality and passenger experience.",
+  //   technologies: [
+  //     "Python",
+  //     "TensorFlow",
+  //     "spaCy",
+  //     "NLTK",
+  //     "scikit-learn",
+  //     "Git",
+  //   ],
+  // },
 ];
 
 export default HERO_CONTENT;

@@ -22,7 +22,7 @@ const Hero = () => {
               variants={container(0)}
               initial="hidden"
               animate="visible"
-              className="pb-16 text-6xl font-thin tracking-tight  lg:mt-16 lg:text-8xl"
+              className="pb-16 text-6xl font-thin tracking-tight lg:mt-16 lg:text-8xl"
             >
               Arin Thamke
             </motion.h1>
@@ -40,7 +40,7 @@ const Hero = () => {
               variants={container(1)}
               initial="hidden"
               animate="visible"
-              className="my-2 max-w-xl py-6 font-light "
+              className="my-2 max-w-xl py-6 font-light"
             >
               {HERO_CONTENT}
             </motion.p>
@@ -49,8 +49,8 @@ const Hero = () => {
               variants={container(1.2)}
               initial="hidden"
               animate="visible"
-              href="src\assets\arin thamke (2).pdf" // replace with your actual path
-              download
+              href="/arin-thamke-cv.pdf"
+              download="Arin_Thamke_CV.pdf"
               className="mt-4 px-6 py-3 border border-neutral-700 rounded-2xl text-neutral-200 font-bold hover:text-cyan-400 hover:border-cyan-400 transition duration-300"
             >
               Download CV
